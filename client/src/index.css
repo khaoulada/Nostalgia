@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 1px 2px 16px 1px;
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: olivedrab;
+}
+
+p{
+  margin: 5px !important;
+  text-align: left;
+  padding: 0;
+}
+
+.btn1{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 2px solid olive !important;
+  padding: 7px 15px !important;
+  outline: none;
+}
+
+.btn1:focus{
+  border: none;
+}
+
+.header{
+  padding: 10px;
+}
+
+.content{
+  min-height: 90vh;
+}
+
+.stadimg{
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+
+.row{
+  padding-left: 140px;
+}
+
+.col{
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.stad{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.4s;
+}
+
+.stad:hover{
+  height: 220px;
+}
+
+.stad:hover > .stad-content{
+  opacity: 1;
+  transform: translateY(-40px);
+}
+
+.stad-content{
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.log{
+  text-align: left;
+}
+
+.login{
+  background-color: white;
+  min-height: 100vh;
+}
+
+.login label , .login h1{
+  color: white !important;
+  opacity: 0.6;
+}
+
+.login-form{
+  background-color: #1F1F1F;
+}
+
+.login-form input{
+  background-color: #333333 !important;
+  border: none !important;
+  color: white !important;
+  opacity: 0.5;
+}
+
+.login a{
+  color: white !important;
+  opacity: 0.5;
+}
+
+.icn{
+  padding-top: 50px;
+}
+
+
+.dropbtn {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: #3e8e41 !important;
+  border: 2px solid olive !important;
+  padding: 7px 15px !important;
+  outline: none;
+  border-radius: 25px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.stadimg2{
+  height: 300px;
+  border-radius: 10px;
+  width: auto;
+}
+
+.nom{
+  text-align: left;
+}
+
+.textbtn{
+  text-align: right;
+}
+
+.editbtn{
+  height: 30px !important;
+  width: 30px !important;
+}
